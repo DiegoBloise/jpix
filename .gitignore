@@ -1,0 +1,11 @@
+src/test
+target/
+bin/
+.vscode/
+.apt_generated/
+.apt_generated_tests/
+.metadata/
+.settings/
+.classpath
+nb-configuration.xml
+.project
