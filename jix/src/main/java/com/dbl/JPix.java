@@ -1,6 +1,6 @@
 package com.dbl;
 
-public class Jix {
+public class JPix {
 
     private String nome;
 
@@ -13,7 +13,7 @@ public class Jix {
     private String txtId;
 
 
-    public Jix(String nome, String chavepix, String valor, String cidade, String txtId) {
+    public JPix(String nome, String chavepix, String valor, String cidade, String txtId) {
         this.nome = nome;
         this.chavepix = chavepix;
         this.valor = valor.replace(",", ".");
