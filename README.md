@@ -1,7 +1,7 @@
-# JIX - (JAVA PIX PAYLOAD)
+# JPIX - (JAVA PIX PAYLOAD)
 
 ## Descrição
-O Utilitário Jix é uma classe Java desenvolvida para gerar payloads conforme o padrão PIX (Sistema de Pagamentos Instantâneos Brasileiro), de acordo com as especificações do Banco Central do Brasil.
+O Utilitário JPix é uma classe Java desenvolvida para gerar payloads conforme o padrão PIX (Sistema de Pagamentos Instantâneos Brasileiro), de acordo com as especificações do Banco Central do Brasil.
 
 ## Funcionalidades
 - Geração de payloads PIX para transações de pagamento instantâneo.
@@ -10,9 +10,9 @@ O Utilitário Jix é uma classe Java desenvolvida para gerar payloads conforme o
 - Java 8 ou superior.
 
 ## Utilização
-1. Clone o repositório ou faça o download do arquivo `Jix.java`.
-2. Importe a classe `Jix` para o seu projeto Java.
-3. Instancie a classe `Jix` com os parâmetros necessários:
+1. Clone o repositório ou faça o download do arquivo `JPix.java`.
+2. Importe a classe `JPix` para o seu projeto Java.
+3. Instancie a classe `JPix` com os parâmetros necessários:
    - `nome`: Nome do beneficiário.
    - `chavepix`: Chave PIX do beneficiário.
    - `valor`: Valor da transação (deve ser fornecido com ponto como separador decimal).
@@ -25,8 +25,8 @@ Exemplo de uso:
 ```java
 public static void main(String[] args) {
     // Exemplo de utilização
-    Jix jix = new Jix("Diego Bloise", "diego-dev@outlook.com", "1.00", "São Paulo", "ZeusTech");
-    String payloadPix = jix.gerarPayload();
+    JPix jpix = new JPix("Diego Bloise", "diego-dev@outlook.com", "1.00", "São Paulo", "ZeusTech");
+    String payloadPix = jpix.gerarPayload();
     System.out.println(payloadPix);
 }
 ```
